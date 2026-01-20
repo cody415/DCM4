@@ -1,0 +1,10 @@
+import math
+
+# Input two numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+# Calculate LCM using gcd
+lcm = abs(a * b) // math.gcd(a, b)
+
+print(f"The LCM of {a} and {b} is {lcm}")
